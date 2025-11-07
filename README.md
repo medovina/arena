@@ -10,7 +10,7 @@ The game should run on any platform that Godot supports, e.g. Linux, macOS, or W
 
 ## Running the game
 
-1. Install Godot 4.3.
+1. Install Godot 4.3.  **Unfortunately the game will not run in Godot 4.4 or 4.5.  I will try to fix this soon.**
 2. Clone this repository.
 3. Start Godot.  The Project Manager will appear.  Click the Import button, then navigate to the directory that you cloned the repository into.  Click "Select Current Folder", then click "Import & Edit".
 4. The game will now be open in the Godot editor.  To run the game, click the triangle button in the toolbar at the top of the window.
