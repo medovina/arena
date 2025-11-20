@@ -22,5 +22,5 @@ static func distance_segment_to_polygon(p: Vector2, q: Vector2, polygon: PackedV
     for i in range(-1, polygon.size() - 1):
         var a = Geometry2D.get_closest_points_between_segments(p, q, polygon[i], polygon[i + 1])
         d = minf(d, a[0].distance_to(a[1]))
-    return d
+    return 0.0 if is_zero_approx(d) else d
 
